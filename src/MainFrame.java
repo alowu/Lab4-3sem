@@ -34,6 +34,8 @@ public class MainFrame extends JFrame {
 
     public MainFrame() {
         super("График");
+        File init_ = new File("init");
+        openGraphics(init_);
         setSize(WIDTH, HEIGHT);
         Dimension ss = new Dimension();
         ss.height = 60;
